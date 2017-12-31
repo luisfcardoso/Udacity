@@ -7,9 +7,9 @@ def symmetric(list):
         return True
     if len(list) != len(list[0]):
         return False
-    a = len(list) 
-    for e in range(0,a):
-        for i in range(0,a):
+    lenth = len(list) 
+    for e in range(0,lenth):
+        for i in range(0,lenth):
             if list[e][i] != list[i][e]:
                 return False
     return True

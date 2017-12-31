@@ -17,7 +17,7 @@ def is_identity_matrix(matrix):
       return False
     
     for x in range(0,lenthx):
-      for y in range(0,lenthx):
+      for y in range(0,lenthy):
         if x == y:
           if not matrix[x][y] == 1:
             return False

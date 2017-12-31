@@ -1,2 +1,2 @@
 def hours2days(hour):
-    return int(hour/24), int(hour%24)
+    return int(hour/24), int(hour%24)  #number of days and hours
