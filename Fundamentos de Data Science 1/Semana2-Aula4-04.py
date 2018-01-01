@@ -9,6 +9,8 @@
 # (A square matrix is a matrix in which the number of rows 
 # is equal to the number of columns)
 
+#Python 2
+
 def is_identity_matrix(matrix):
     lenthx = len(matrix)
     lenthy = len(matrix[0])

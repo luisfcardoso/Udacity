@@ -10,6 +10,8 @@
 
 #Hint - "int()" turns a string's element into a number
 
+#Python 2
+
 def numbers_in_lists(string):
     resultado = []
     string = string[::-1] 	#inverter string (numero)

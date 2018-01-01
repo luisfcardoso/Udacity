@@ -6,6 +6,8 @@
 # division instead of integer division. You get decimal division if any of
 # the numbers involved are decimals.
 
+#Python 2
+
 def list_mean(list):
     sum = 0.0
     number = 0.0

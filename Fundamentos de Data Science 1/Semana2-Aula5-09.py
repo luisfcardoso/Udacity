@@ -1,3 +1,6 @@
+
+#Python 3
+
 def create_cast_list(filename):
     cast_list = []
     # usar with para abrir o arquivo filename
@@ -9,4 +12,4 @@ def create_cast_list(filename):
             cast_list.append(line_data[0])
     	return cast_list
 
-print create_cast_list('flying_circus_cast.txt')
+print(create_cast_list('flying_circus_cast.txt'))

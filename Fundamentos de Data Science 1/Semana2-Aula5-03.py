@@ -1,3 +1,6 @@
+
+#Python 2
+
 def print_list(l, numbered=False, bullet_character='*'):   #Argumentos padrões => fica optativo e entra o valor default
     """Prints a list on multiple lines, with numbers or bullets
     
